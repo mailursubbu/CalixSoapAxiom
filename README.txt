@@ -2,6 +2,9 @@ Axiom is updated to consume the CMS apis.
 CMS apis were using SOAP 1.2 namespace but were complaint with SOAP 1.1.
 Hence Axiom is updated to ignore few of the checks, to work with CMS. This is a very bad way to fix !!!
 
+Changed below file to avoid the error even when namespace is not mathcing to SOAP standards
+./axiom-api/src/main/java/org/apache/axiom/soap/impl/builder/StAXSOAPModelBuilder.java
+
 How to build this project:
 
 cd {ROOT_OF_THIS_project}
