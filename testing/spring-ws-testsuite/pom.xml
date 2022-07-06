@@ -108,7 +108,7 @@
         <dependency>
             <groupId>org.apache.ws.security</groupId>
             <artifactId>wss4j</artifactId>
-            <version>1.6.15</version>
+            <version>1.6.17</version>
         </dependency>
         <dependency>
             <!-- Need this because the SAAJ implementation in Java 1.6 has an issue (probably SAAJ-37). -->
